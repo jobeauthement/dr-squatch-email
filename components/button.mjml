@@ -1,0 +1,8 @@
+<mj-section padding="10px 44px 10px 44px">
+  <mj-column width="512px">
+    <mj-button inner-padding="0px" padding="20px 0px 13px 0px" letter-spacing="0.5px" width="276px" height="47px" border-radius="5px" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;" background-color="#cc6328" color="white" font-weight="700">
+      VIEW ORDER STATUS ►
+    </mj-button>
+  </mj-column>
+</mj-section>
+<mj-section padding="11px 44px" background-color="#ffffff">

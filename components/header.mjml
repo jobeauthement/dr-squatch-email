@@ -1,0 +1,8 @@
+<mj-raw>
+  <!-- Header -->
+</mj-raw>
+<mj-section padding="12px 0 12px 0" background-color="#ffffff" css-class="header">
+  <mj-column width="100%">
+    <mj-image align="center" width="224px" height="98.35px" padding="9px 0px 0px 0px" container-background-color="#f0eeeb" padding-top="9px" src="https://i.imgur.com/XJjg5WG.png" />
+  </mj-column>
+</mj-section>

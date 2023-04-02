@@ -1,0 +1,356 @@
+<mjml>
+  <mj-head>
+    <mj-raw>
+      <!-- Whatever styles you put in here becomes a style inside of the style tag.  Becomes CSS properties inside of the style tag -->
+    </mj-raw>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      @media (max-width: 600px) {
+        .alignment {
+          text-align: center;
+        }
+
+        .left-alignment {
+          text-align: left;
+
+        }
+
+        .right-alignment {
+          text-align: right;
+
+        }
+      }
+
+      @media (max-width: 480px) {
+        .moblie-alignment {
+          text-align: center;
+        }
+
+        .mobile-left-alignment {
+          text-align: left;
+        }
+
+        .mobile-right-alignment {
+          text-align: right;
+        }
+
+
+      }
+    </mj-style>
+    <mj-raw>
+      <!-- Uses the different classes that you decide to create.  Takes styles from here and inlines it with specific tables -->
+    </mj-raw>
+    <mj-style inline="inline">
+      .section-padding {
+        padding: 0px 44px;
+      }
+
+      .content-background {
+        background-color: #ffffff;
+      }
+
+      .footer-background {
+        background-color:
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-include path="./components/header.mjml" />
+    <mj-raw>
+      <!-- Body Beginning -->
+    </mj-raw>
+    <mj-section padding="10px 0px 20px 0px" background-color="#ffffff">
+      <mj-column padding="0" width="512px">
+        <mj-text padding="0px 0px 44px 0px" line-height="46px" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="32px" line-height="46px" font-weight="700" text-transform="uppercase" color="#203620" align="center">
+          ORDER CONFIRMATION
+        </mj-text>
+        <mj-text padding="0px 0px 11px 0px" font-family="Arial,-apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="center">
+          Hey Jobe,
+        </mj-text>
+        <mj-text padding="0px 0px 11px 0px" font-family="Arial,-apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="center">
+          We've received your order and have a team of surprisingly nimble Sasquatches working to put it together now. In the meantime, feel free to get dirty and rugged — Dr. Squatch is on the way. If you have any questions about your order, feel free to reply to this email directly!
+        </mj-text>
+        <mj-text padding="0px 0px 26px 0px" font-family="Arial,-apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="center">
+          <b>Please note that we can only update or cancel orders within 30 minutes of when you originally placed the order. </b>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section css-class="section-padding" background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#e5e5e5" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Order Section -->
+    </mj-raw>
+    <mj-section css-class="section-padding" padding="0px 0px 34px 0px" background-color="#ffffff">
+      <mj-column padding="0px" width="100%">
+        <mj-text padding="0px 0px 0px 0px" line-height="46px" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="18px" line-height="46px" font-weight="700" text-transform="uppercase" color="#203620" align="center">
+          Order No. #11832619<br>
+        </mj-text>
+        <mj-text padding="0px 0px 0px 0px" font-family="'Arial',-apple-system,BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;" font-size="13px" line-height="0px" font-weight="400" text-transform="none" color="#cc6328" align="center">
+          June 30, 2022
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Items Ordered -->
+    </mj-raw>
+    <mj-raw>
+      <!--Divider with Text-->
+    </mj-raw>
+    <mj-section padding="0px 44px">
+      <mj-column width="100%">
+        <mj-text padding="0px 0 0 0" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="14px" line-height="22px" font-weight="900" text-transform="none" color="#203620" align="left">
+          <div class="alignment">ITEMS ORDERED</div>
+        </mj-text>
+        <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#e5e5e5" />
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="section-padding" background-color="#ffffff" css-class="center-columns" css-class="header" padding="0px">
+
+      <mj-column width="102.4px" vertical-align="middle">
+        <mj-image css-class="soap-image" width="105px" height="95.33px" padding="9px 0px 0px 0px" container-background-color="#ffffff" padding-top="9px" src="https://i.imgur.com/2DB2Fpq.png" />
+      </mj-column>
+      <mj-column width="410px">
+        <mj-group width="100%">
+          <mj-column width="50%" vertical-align="middle">
+            <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+              <div class="left-alignment">Soap Subscription - 6 Bars</div>
+            </mj-text>
+            <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="13px" line-height="22px" font-weight="400" text-transform="none" color="#cc6328" align="left">
+              <div class="left-alignment">Soap / Billed & Shipped Quarterly</div>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="15%" vertical-align="top">
+            <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+              <div class="right-alignment" class="mobile-right-alignment">x 1</div>
+            </mj-text>
+          </mj-column width="25%">
+          <mj-column vertical-align="top">
+            <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+              <div class="right-alignment" class="mobile-right-alignment">$36.00</div>
+            </mj-text>
+          </mj-column>
+
+        </mj-group>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="11px 44px" background-color="#ffffff">
+      <mj-column padding="0" width="100%">
+        <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#e5e5e5" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="10px 44px 15px 44px" background-color="#ffffff" css-class="header">
+      <mj-group>
+        <mj-column width="50%">
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+            Subtotal
+          </mj-text>
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+            Standard Shipping
+          </mj-text>
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+            MN STATE TAX (6.875%)
+          </mj-text>
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+            MN SPECIAL TAX (0.25%)
+          </mj-text>
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="900" text-transform="none" color="#203620" align="left">
+            TOTAL
+          </mj-text>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+            $36.00
+          </mj-text>
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+            $0.00
+          </mj-text>
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+            $2.48
+          </mj-text>
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+            $0.09
+          </mj-text>
+          <mj-text padding="5px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="900" text-transform="none" color="#203620" align="right">
+            $38.57
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-raw>
+      <!--Divider with Text-->
+    </mj-raw>
+    <mj-section padding="0px 44px">
+      <mj-column width="100%">
+        <mj-text padding="0px 0 0 0" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="14px" line-height="22px" font-weight="900" text-transform="none" color="#203620" align="left">
+          PAYMENT INFO
+        </mj-text>
+        <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#e5e5e5" />
+      </mj-column>
+    </mj-section>
+    <!-- Braintree Section-->
+    </mj-raw>
+    <mj-section css-class="section-padding" background-color="#ffffff" css-class="header">
+      <mj-group>
+        <mj-column width="10%">
+          <mj-image align="left" width="40px" height="25.25px" padding="0px 0px 0px 0px" container-background-color="#ffffff" src="https://i.imgur.com/u8vG4oY.png" />
+        </mj-column>
+        <mj-column width="55%">
+          <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+            Braintree
+          </mj-text>
+        </mj-column>
+        <mj-column width="35%">
+          <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+            $38.57
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- Shipping Section-->
+    <mj-section padding="19px 44px" background-color="#ffffff" css-class="header">
+      <!-- <mj-group> -->
+      <mj-column width="256px" padding="0px 0px 16px 0px">
+        <mj-text padding="0px 0 0 0" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="14px" line-height="22px" font-weight="900" text-transform="none" color="#203620" align="left">
+          <div class="alignment">SHIPPING ADDRESS</div>
+        </mj-text>
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+          <div class="alignment">Jobe Authement</div>
+        </mj-text>
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+          <div class="alignment">12345 Sasquatch Ct</div>
+        </mj-text>
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+          <div class="alignment">Bigfoot, MN 55555</div>
+        </mj-text>
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+          <div class="alignment">United States</div>
+        </mj-text>
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="left">
+          <div class="alignment">Tel. 5555555555</div>
+        </mj-text>
+      </mj-column>
+      <mj-column width="256px" padding="0px 0px 16px 0px">
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="900" text-transform="uppercase" color="#203620" align="right">
+          <div class="alignment">customer</div>
+        </mj-text>
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+          <div class="alignment">Jobe Authement</div>
+        </mj-text>
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+          <div class="alignment">12345 Sasquatch Ct</div>
+        </mj-text>
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+          <div class="alignment">Bigfoot, MN 55555</div>
+        </mj-text>
+        <mj-text padding="0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="right">
+          <div class="alignment">United States</div>
+        </mj-text>
+        <mj-text padding="0px 0px 0px 0px" font-family="Arial, -apple-system,BlinkMacSystemFont, Segoe UI, Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#cc6328" align="right">
+          <div class="alignment">sasquatch@bigfoot.net</div>
+        </mj-text>
+      </mj-column>
+      <!-- </mj-group> -->
+    </mj-section>
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section css-class="section-padding" background-color="#ffffff">
+      <mj-column padding="0" width="100%">
+        <mj-divider padding="0px" border-width="1px" border-style="solid" border-color="#e5e5e5" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- View Order Status Section -->
+    </mj-raw>
+    <mj-section padding="10px 44px 0px 44px" background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-text padding="0px 0px 11px 0px" font-family="'Arial',-apple-system,BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="center">
+          You can follow the status of your order by clicking the button below:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Button View Order Status Section -->
+    </mj-raw>
+    <mj-section padding="10px 44px 10px 44px">
+      <mj-column width="100%">
+        <mj-button inner-padding="0px" padding="20px 0px 13px 0px" letter-spacing="0.5px" width="276px" height="47px" border-radius="5px" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;" background-color="#cc6328" color="white" font-weight="700">
+          <!-- <mj-button css-class="button-background-color" inner-padding="0px" padding="20px 0px 13px 0px" letter-spacing="0.5px" width="276px" height="47px" border-radius="5px" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;" color="white" font-weight="700"> -->
+          VIEW ORDER STATUS ►
+        </mj-button>
+        <!-- background-color="#cc6328" -->
+      </mj-column>
+    </mj-section>
+    <mj-section padding="11px 44px" background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-text padding="0px" font-family="'Arial',-apple-system,BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#5a3714" align="center">
+          If you have any questions, please reply to this email and the Squatch Care Squad will be able to help!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="4px 44px 40px" background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-text line-height="46px" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="32px" line-height="46px" font-weight="700" text-transform="uppercase" color="#203620" align="center">
+          OTHER SQUATCH<br>
+          Favorites:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Other Squatch Favorites Section -->
+    </mj-raw>
+    <mj-section padding="0px 44px" background-color="white">
+      <mj-column padding="5.5px" inner-background-color="#f0eeeb" width="256px" background-color="white">
+        <mj-image align="center" width="200px" height="200px" padding="13.25px 0" src="https://i.imgur.com/uahQmnE.png" />
+        <mj-text padding="0px" font-family="'Arial',-apple-system,BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#203620" align="center">
+          Toothpaste Kit
+        </mj-text>
+        <mj-text padding="11px 0 26px 0" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;" font-size="13px" line-height="22px" font-weight="400" text-transform="none" color="#cc6328" align="center">
+          SHOP NOW ►
+        </mj-text>
+      </mj-column>
+      <mj-column padding="5.5px" inner-background-color="#f0eeeb" width="256px" background-color="white">
+        <mj-image align="center" width="200px" height="200px" padding="13.25px 0" src="https://i.imgur.com/04xcCHG.png" />
+        <mj-text padding="0px" font-family="'Arial',-apple-system,BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#203620" align="center">
+          Bay Rum
+        </mj-text>
+        <mj-text padding="11px 0 26px 0" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;" font-size="13px" line-height="22px" font-weight="400" text-transform="none" color="#cc6328" align="center">
+          SHOP NOW ►
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 44px" background-color="white">
+      <mj-column padding="5.5px" inner-background-color="#f0eeeb" width="256px" background-color="white">
+        <mj-image align="center" width="200px" height="200px" padding="13.25px 0" src="https://i.imgur.com/UpKEY9F.png" />
+        <mj-text padding="0px" font-family="'Arial',-apple-system,BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#203620" align="center">
+          Cypress & Citrus Hair Care Kit
+        </mj-text>
+        <mj-text padding="11px 0 26px 0" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;" font-size="13px" line-height="22px" font-weight="400" text-transform="none" color="#cc6328" align="center">
+          SHOP NOW ►
+        </mj-text>
+      </mj-column>
+      <mj-column padding="5.5px" inner-background-color="#f0eeeb" width="256px" background-color="white">
+        <mj-image align="center" width="200px" height="200px" padding="13.25px 0" src="https://i.imgur.com/Uk7HDWh.png" />
+        <mj-text padding="0px" font-family="'Arial',-apple-system,BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;" font-size="15px" line-height="22px" font-weight="400" text-transform="none" color="#203620" align="center">
+          Pine Tar Deodorant
+        </mj-text>
+        <mj-text padding="11px 0 26px 0" font-family="'Arial Black',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;" font-size="13px" line-height="22px" font-weight="400" text-transform="none" color="#cc6328" align="center">
+          SHOP NOW ►
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="70px 44px" background-color="white">
+    </mj-section>
+    <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>
